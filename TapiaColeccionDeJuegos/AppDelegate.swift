@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  TapiaColeccionDeJuegos
+//  UsoCoreData
 //
-//  Created by Joshua Tapia on 24/10/23.
+//  Created by Joshua Tapia on 17/10/23.
 //
 
 import UIKit
@@ -44,6 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let container = NSPersistentContainer(name: "TapiaColeccionDeJuegos")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
+                
                 // Replace this implementation with code to handle the error appropriately.
                 // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
                  
